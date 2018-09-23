@@ -10,7 +10,7 @@ Jenkins :
 ### installation of jenkins server
 
 **Prerequirments**
-   - java 8 [install](https://github.com/sujonict07/jenkinsBasic/)
+   - java 8 [install](https://github.com/sujonict07/jenkinsBasic/blob/master/java_and_tomcat_install.md)
    - apache-tomcat8
 
 
