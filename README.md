@@ -43,3 +43,6 @@ sudo systemctl enable jenkins.service
 ```
 reboot your server.
 http://<server_ip>:8080/
+
+##### After running jenkins server, configurate your project to build in server.
+[django project deploying script with virtual env](https://github.com/sujonict07/jenkinsBasic/blob/master/run_scripts.sh)
