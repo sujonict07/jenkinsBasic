@@ -14,3 +14,28 @@ $ pipenv --three.
 ```
 $ pipenv --two.
 ``` 
+
+shell will spawn a shell with the virtualenv activated. This shell can be deactivated by using exit.
+
+```
+$ pipenv shell 
+$ exit
+
+```
+If you have already cloned repository with pipenv  
+use this commands: 
+
+
+```
+
+$ cd <your_repository>
+To check Pipfile  Pipfile.lock  files 
+$ ls  
+$ pipenv shell 
+if Pipfile  Pipfile.lock exists,
+$ pipenv install 
+otherwise you can install your chooces package.
+$ pipenv install <package name>
+$ exit
+
+```
