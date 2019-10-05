@@ -58,3 +58,16 @@ sudo systemctl status tomcat
 yum install net-tools
 netstat -anp|grep java
 ```
+### For Ubunut 18.04 
+
+Install java.
+```
+apt install default-jre
+apt install openjdk-8-jre-headless
+```
+And check version by:
+```
+java --version
+```
+
+
